@@ -64,6 +64,11 @@ $(document).ready(function () {
     $(".new-todo").keydown(function (e) {
         if (e.keyCode === 13) {
             let newTodo = $(this).val();
+            if (newTodo == '') {
+                $(this).css('border', '1px solid red');
+                return;
+            }
+            $(this).css('border', '0px solid red');
             $.ajax({
                 url: 'include/ajax.php',
                 contentType: 'application/json',
@@ -150,6 +155,12 @@ $(document).ready(function () {
         if (e.keyCode === 13) {
             let task = $(this).val();
             let id = $(this).data("id");
+
+            if (task == '') {
+                $(this).css('border', '1px solid red');
+                return;
+            }
+            $(this).css('border', '0px solid red');
             $.ajax({
                 url: 'include/ajax.php',
                 contentType: 'application/json',
