@@ -1,0 +1,16 @@
+{
+    "name": "devshawon/todos",
+    "authors": [
+        {
+            "name": "dev shawon",
+            "email": "islamshawon1993@gmail.com"
+        }
+
+    ], 
+    "autoload":{
+        "psr-4": {
+                "ToDo\\" : "classes\\"
+            }   
+    }
+    
+}
