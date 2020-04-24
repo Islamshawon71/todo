@@ -1,4 +1,4 @@
-# todo
+# Todo
 This is a simple todo list app
 
 # Feature
