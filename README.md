@@ -7,7 +7,7 @@ This is a simple todo list app
 3. Composer Autoload 
 4. With Database
 
-Steps To install this app 
+# Steps To install this app 
 1. Create a database and Upload Database
 2. If database name change from current name then update the new database name to classes/Database.php
 3. Upload the full folder to localhost and open the folder. 
